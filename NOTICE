@@ -1,0 +1,13 @@
+@threepipe/arrangement-2d-js
+
+The JavaScript and TypeScript wrapper in src/ is by Axel Antoine (https://github.com/LokiResearch/arrangement-2d-js),
+under the MIT License in LICENSE.
+
+The files in build/ are a WebAssembly build that also contains:
+- CGAL 5.4 (https://www.cgal.org), 2D Arrangements package: GPL-3.0-or-later.
+  The CGAL kernel and support library parts: LGPL-3.0-or-later.
+- Boost 1.79.0 (https://www.boost.org): Boost Software License 1.0.
+
+Because the build contains GPL-3.0-or-later code, this package as a whole is distributed under GPL-3.0-or-later.
+The sources of the build are src/, CMakeLists.txt and install_libraries.sh in this repository; the CGAL and Boost
+sources are at the URLs in install_libraries.sh.
